@@ -35,11 +35,18 @@ create a firewall in the vac network to allow request for cloud SQL in the port 
 
 step-6 deploy the application and test
 
-git clone 
+ssh to a vm and do git clone https://github.com/Shreedhar-keshav/gcp-3tier-app.git
+
 sudo apt update -y
-sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools -y 
+
+sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools -y
+
 pip install flask -y
+
 pip install wheel -y 
+
 pip install gunicorn flask -y 
+
 sudo apt-get install python3-mysqldb -y
+
 python3 __init__.py(to start the application)
