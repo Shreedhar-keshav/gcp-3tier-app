@@ -49,4 +49,4 @@ pip install gunicorn flask -y
 
 sudo apt-get install python3-mysqldb -y
 
-python3 __init__.py(to start the application)
+python3 flaskapp.py(to start the application)
